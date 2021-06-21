@@ -98,9 +98,7 @@ class _HomePageState extends State<HomePage> {
         ),
         body: Column(
           children: [
-            Positioned(
-              top: 0,
-              left: 0,
+            Container(
               width: size.width,
               height: size.height - 100,
               child: Container(
